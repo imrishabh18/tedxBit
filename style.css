@@ -1,0 +1,70 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+}
+/* navbar bug */
+.navbar-collapse.collapse.in {
+  display: block !important;
+}
+.navbar-inner {
+  background: transparent;
+}
+/* navbar bug */
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  background-image: url("backgroundA.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.navbar-brand {
+  margin: 7px;
+}
+
+.nav-links {
+  font-size: 2rem;
+}
+
+.work{
+ position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(241, 223, 223);
+  font-size: 60px;
+  letter-spacing: 20px;
+}
+
+.About{
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  height: 100vh;
+}
+.speaker{
+  position: absolute;
+  top: 200%;
+  width: 100%;
+  height: 100vh;
+}
+.contact-us{
+  position: absolute;
+  top: 300%;
+  width: 100%;
+  height: 100vh;
+}
