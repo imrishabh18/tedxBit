@@ -9,6 +9,11 @@ body {
   overflow-x: hidden;
   /* overflow-y: hidden; */
 }
+
+@font-face {
+  font-family: "PRODUCTSANS-LIGHT";
+  src: URL("PRODUCTSANS-LIGHT.ttf") format("truetype");
+}
 /* navbar bug */
 .navbar-collapse.collapse.in {
   display: block !important;
@@ -25,7 +30,7 @@ body {
   width: 100%;
   height: 100%;
   background-color: #000;
-  background-image: url("backgroundA.jpeg");
+  background-image: url("backgroungB.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -39,32 +44,49 @@ body {
   font-size: 2rem;
 }
 
-.work{
- position: absolute;
+.work {
+  position: absolute;
   text-align: center;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: rgb(241, 223, 223);
   font-size: 60px;
-  letter-spacing: 20px;
+  letter-spacing: 15px;
+  font-family: "PRODUCTSANS-LIGHT";
 }
 
-.About{
+.btn-outline-secondary {
+  border-color: white !important;
+  color: white !important;
+  border-radius: 25px !important;
+}
+.btn-outline-secondary:hover {
+  background-color: transparent !important;
+  /* box-shadow: none !important; */
+}
+
+.About {
   position: absolute;
   top: 100%;
   width: 100%;
   height: 100vh;
+  color: red;
+  background-color: rgb(11, 11, 11);
 }
-.speaker{
+.speaker {
   position: absolute;
   top: 200%;
   width: 100%;
   height: 100vh;
+  color: red;
+  background-color: rgb(11, 11, 11);
 }
-.contact-us{
+.contact-us {
   position: absolute;
   top: 300%;
   width: 100%;
   height: 100vh;
+
+  background-color: rgb(11, 11, 11);
 }
