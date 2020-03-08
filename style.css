@@ -45,7 +45,7 @@ body {
 .work {
   position: absolute;
   text-align: center;
-  top: 50%;
+  top: 42%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: rgb(241, 223, 223);
@@ -156,6 +156,12 @@ body {
 .brand{
   color: #e62b1e ;
 }
+.left-div h1{
+  font-size: 30px;
+}
+.right-div h1{
+  font-size: 30px;
+}
 .left-div
 {
   display: inline-block;
@@ -164,6 +170,7 @@ body {
   padding: 30px;
   margin: 15px;
   vertical-align: top;
+  font-size: 10px !important;
 }
 .right-div
 {
