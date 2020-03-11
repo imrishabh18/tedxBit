@@ -47,16 +47,30 @@ ul{
   font-size: 18px;
 }
 .work {
-  position: absolute;
+  /* position: absolute;
   text-align: center;
-  top: 42%;
+  top: 30%;
   left: 50%;
-  transform: translate(-50%, -42%);
+  transform: translate(-50%, -30%);
   color: rgb(241, 223, 223);
   font-size: 60px;
-  letter-spacing: 15px;
+  letter-spacing: 15px; */
   /* font-family: "PRODUCTSANS-LIGHT",'Poppins'; */
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
+}
+.work img{
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  transform: translate(-50%, -28%);
+  width: 450px;
+  height: 135px;
+}
+.work button{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-60%);
 }
 .btn-outline-secondary {
   border-color: white !important;
@@ -190,6 +204,9 @@ ul{
 #contact-us h3{
 
   font-family: "Montserrat";
+}
+#contact-us p{
+  /* padding-top: 10px; */
 }
 .social-icons-footer {
   margin: 0 auto;
